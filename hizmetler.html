@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ford Otosan | Hizmetler</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Sabit Kırmızı Uyarı Alanı -->
+    <div class="top-uyari">
+        Bu site Web Tasarım dersi kapsamında yapılmıştır ve sitedeki bilgilerin geçerliliği yoktur.
+    </div>
+
+    <!-- Navigasyon Menüsü -->
+    <nav>
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-text">FORD OTOSAN</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                <li><a href="hizmetler.html" class="active">Hizmetler</a></li>
+                <li><a href="kurumsal.html">Kurumsal</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sayfa Başlığı -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Hizmetlerimiz</h1>
+            <p>Ford Otosan'ın ürün ve hizmet yelpazesi</p>
+        </div>
+    </section>
+
+    <!-- Sekmeli İçerik -->
+    <section class="page-content">
+        <div class="container">
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="urunler">Ürünler</button>
+                <button class="tab-btn" data-tab="servis">Servis</button>
+                <button class="tab-btn" data-tab="destek">Destek</button>
+            </div>
+
+            <!-- Tab 1: Ürünler -->
+            <div id="urunler" class="tab-content active">
+                <h2>Ticari Araç Ürünleri</h2>
+                <div style="text-align: center; margin-bottom: 2rem;">
+                    <img src="images/daniel-j-schwarz-Ye0y4H5yg64-unsplash.jpg" alt="Ürünler" style="max-width: 600px; width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                </div>
+                <div class="service-grid">
+                    <div class="service-card">
+                        <h3>Transit Serisi</h3>
+                        <p>Hafif ticari araçlar, maksimum yük kapasitesi ve yakıt verimliliği ile tasarlanmıştır.</p>
+                        <ul>
+                            <li>Yüksek yük kapasitesi</li>
+                            <li>İyi yakıt ekonomisi</li>
+                            <li>Ergonomik tasarım</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <h3>Cargo Serisi</h3>
+                        <p>Ağır ticari araçlar, şantiye ve inşaat sektörü için ideal çözümler.</p>
+                        <ul>
+                            <li>Güçlü motor</li>
+                            <li>Dayanıklı şasi</li>
+                            <li>Özelleştirme seçenekleri</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <h3>Motor Üretimi</h3>
+                        <p>Yüksek performanslı dizel motorlar, otomotiv endüstrisine sunulur.</p>
+                        <ul>
+                            <li>Düşük emisyon</li>
+                            <li>Uzun ömür</li>
+                            <li>Verimli motor teknolojisi</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab 2: Servis -->
+            <div id="servis" class="tab-content">
+                <h2>Servis ve Bakım Hizmetleri</h2>
+                <div style="text-align: center; margin-bottom: 2rem;">
+                    <img src="images/leo_visions-uPC0NoncU10-unsplash.jpg" alt="Servis" style="max-width: 600px; width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                </div>
+                <div class="service-grid">
+                    <div class="service-card">
+                        <h3>Periyodik Bakım</h3>
+                        <p>Aracınızın uzun ömürlü ve güvenli çalışması için düzenli bakım hizmetleri.</p>
+                        <ul>
+                            <li>Yağ ve filtre değişimi</li>
+                            <li>Fren sistemini kontrol</li>
+                            <li>Lastik değerlendirmesi</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <h3>Orijinal Yedek Parça</h3>
+                        <p>Tüm Ford Otosan araçları için orijinal ve uyumlu yedek parçalar.</p>
+                        <ul>
+                            <li>Kalitesi garantili</li>
+                            <li>Hızlı temin</li>
+                            <li>Kompetitif fiyatlar</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <h3>Teknik Destek</h3>
+                        <p>Araç işletim ve bakım konularında 24/7 teknik destek.</p>
+                        <ul>
+                            <li>Telefon desteği</li>
+                            <li>Uzman danışmanlar</li>
+                            <li>Hızlı çözüm süreci</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab 3: Destek -->
+            <div id="destek" class="tab-content">
+                <h2>Müşteri Destek Hizmetleri</h2>
+                <div style="text-align: center; margin-bottom: 2rem;">
+                    <img src="images/deepak-n-RVtcjWFvVcs-unsplash.jpg" alt="Destek" style="max-width: 600px; width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                </div>
+                <div class="service-grid">
+                    <div class="service-card">
+                        <h3>Finansman Çözümleri</h3>
+                        <p>Araç satın alımı için esnek finansman ve kredi seçenekleri.</p>
+                        <ul>
+                            <li>Düşük faiz oranları</li>
+                            <li>Uzun vade seçenekleri</li>
+                            <li>Hızlı onay süreci</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <h3>Sigorta Hizmetleri</h3>
+                        <p>Araç sigortası ve kapsamlı koruma paketleri.</p>
+                        <ul>
+                            <li>Komplet sigorta paketi</li>
+                            <li>Hızlı hasar işlemi</li>
+                            <li>Geniş servis ağı</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <h3>Teslim Sonrası Hizmetler</h3>
+                        <p>Araç tesliminden sonra kapsamlı destek ve takip hizmetleri.</p>
+                        <ul>
+                            <li>Garantili bakım paketi</li>
+                            <li>Ödül programları</li>
+                            <li>Geri dönüşüm hizmetleri</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h4>Ford Otosan</h4>
+                <p>Ticari araç ve motor üretiminde Türkiye'nin öncü şirketi.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Hızlı Linkler</h4>
+                <ul>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="hizmetler.html">Hizmetler</a></li>
+                    <li><a href="kurumsal.html">Kurumsal</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>İletişim</h4>
+                <p>Tel: +90 232 555 0000</p>
+                <p>Email: info@fordotosan.com.tr</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Ford Otosan - Web Tasarım Dersi Projesi</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
